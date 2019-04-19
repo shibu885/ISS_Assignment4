@@ -25,13 +25,14 @@ Run the command to set up the server
 
 If you get a message that indicates that your server is up and running, you are good to go. 
 If it shows some error then install the required libraries using pip3. If that does not work, notify the developers by posting an issue here.
+For quiz the correct answers for the MCQ problems are given in first row of html webpage located by url 127.0.0.1::5000/show_all
 
 # Functionality of each file:
 app/run.py: The file which when run, sets up the server.
 
 app/app.py: The file which calls all urls.
 
-app/templates/show_all.html: This shows all stored response database of all questions of quiz. The url to access it is 127.0.0.1::5000/show_all .
+app/templates/show_all.html: This shows all stored response database of all questions of quiz. The url to access it is 127.0.0.1::5000/show_all . In the very first row it shows the correct answer of that MCQ problem.
 
 app/Answer.db: Contains the database containing all the responses along with their answers  for the questions for the quiz part of this application.
 
