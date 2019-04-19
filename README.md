@@ -42,11 +42,13 @@ app/static: contains the required CSS, images, and JS files
 
 app/templates: contains the HTML files 
 
-app/testcases.txt: It contains some strings with options and their corresponding ciphertext.
-
 # Design Patterns identified
 Factory pattern while initializing the database. The app.py creates and maintains of database of response of quizzes.
 
 127.0.0::5000/show_all : shows the correct answers in first row followed by responses of visitors.
 
-
+# Testing of Script
+run app/test.py if it prints working well and nothing else then the logic of code is working well and it will give the error
+if there is some fault. The above script invokes the logic in the code in itself and it creates some random string and it
+encrypts the string and then decrypts the encrypted ciphertext and checks the result with plaintext and prints the error
+message if any otherwise it shows only working well. 
