@@ -1,0 +1,36 @@
+Test Case 1 :
+  String : test
+    for 1024 bit     ciphertext:
+    for 1024 & e = 3 ciphertext:
+    for 512 bit      ciphertext:
+    for 1024 & e = 3 ciphertext:
+Test Case 2 :
+  String : name
+    for 1024 bit     ciphertext:
+    for 1024 & e = 3 ciphertext:
+    for 512 bit      ciphertext:
+    for 1024 & e = 3 ciphertext:
+Test Case 3 :
+  String : tester
+    for 1024 bit     ciphertext:
+    for 1024 & e = 3 ciphertext:
+    for 512 bit      ciphertext:
+    for 1024 & e = 3 ciphertext:
+Test Case 4 :
+  String : starter
+    for 1024 bit     ciphertext:
+    for 1024 & e = 3 ciphertext:
+    for 512 bit      ciphertext:
+    for 1024 & e = 3 ciphertext:
+Test Case 5 :
+  String : check
+    for 1024 bit     ciphertext:
+    for 1024 & e = 3 ciphertext:
+    for 512 bit      ciphertext:
+    for 1024 & e = 3 ciphertext:
+Test Case 6 :
+  String : final
+    for 1024 bit     ciphertext:
+    for 1024 & e = 3 ciphertext:
+    for 512 bit      ciphertext:
+    for 1024 & e = 3 ciphertext:
