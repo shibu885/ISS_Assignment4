@@ -42,7 +42,7 @@ app/static: contains the required CSS, images, and JS files
 
 app/templates: contains the HTML files 
 
-app/testScript.py: It generates the random string and encrypt them you can use them to check the your output.
+app/testcases.txt: It contains some strings with options and their corresponding ciphertext.
 
 # Design Patterns identified
 Factory pattern while initializing the database. The app.py creates and maintains of database of response of quizzes.
