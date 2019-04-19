@@ -2,6 +2,7 @@ from flask import Flask, render_template, jsonify, request, redirect , flash ,ur
 from flask_sqlalchemy import SQLAlchemy
 import rsa
 #from vernam import *
+from logics import *
 
 key = ""
 iv = ""
@@ -21,9 +22,6 @@ class Answers(db.Model):
     A3 = db.Column(db.String(100))
     A4 = db.Column(db.String(100))
     A5 = db.Column(db.String(100))
-   # A6 = db.Column(db.String(100))
-    #A7 = db.Column(db.String(100))
-   # A8 = db.Column(db.String(100))
 
     def __init__(self,a1,a2,a3,a4,a5):
         self.A1 = a1
@@ -31,10 +29,7 @@ class Answers(db.Model):
         self.A3 = a3
         self.A4 = a4
         self.A5 = a5
-    #    self.A6 = a6
-     #   self.A7 = a7
-      #  self.A8 = a8
-
+        
 def generate(sz, e=None):
     if e:
         public_key, private_key = rsa.newkeys(sz, exponent=e)
