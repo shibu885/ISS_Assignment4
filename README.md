@@ -27,14 +27,22 @@ If it shows some error then install the required libraries using pip3. If that d
 
 # Functionality of each file:
 app/run.py: The file which when run, sets up the server.
+
 app/app.py: The file which calls all urls.
+
 app/templates/show_all.html: This shows all stored response database of all questions of quiz. The url to access it is 127.0.0.1::5000/show_all .
+
 app/Answer.db: Contains the database containing all the responses along with their answers  for the questions for the quiz part of this application.
+
 app/exp.js: prforms the function onclick funtions
+
 app/__pycache__: it stores the temporary cache for webpage
+
 app/static: contains the required CSS, images, and JS files
+
 app/templates: contains the HTML files 
+
 app/testScript.py: It generates the random string and encrypt them you can use them to check the your output.
 
-#Design Patterns identified
+# Design Patterns identified
 app/Design.txt: it contains the design pattern of webpage
