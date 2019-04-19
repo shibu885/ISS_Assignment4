@@ -1,0 +1,91 @@
+{% extends "layout.html" %} {% block content %}
+<script src="../static/js/jquery.js">
+</script>
+<script src="../static/js/exp.js">
+</script>
+<h1 class="text-h2-lightblue">
+    EXPERIMENT
+</h1>
+<div class="content" id="experiment-article-section-4-content">
+    <p>
+        Plaintext (string):
+    </p>
+    <p>
+        <input id="plaintext" value="test" size="60" type="text" name="encrypt_me">
+        <br>
+        <button id="encrypt">encrypt</button>
+    </p>
+    <p>
+        Ciphertext (hex):
+        <br>
+        <input id="ciphertext" rows="4" cols="70"> 
+        <br>
+        <button id="decrypt">decrypt</button>
+    </p>
+    <p>
+        Decrypted Plaintext (string):
+        <br>
+        <input id="decrypted" size="60" type="text">
+    </p>
+    <!-- <p>
+            Status:
+            <input id="status" size="60" type="text">
+        </p> -->
+    <hr>
+    <h2>
+        RSA private key
+    </h2>
+    <p>
+        <button id="set_1024f4">1024 bit</button>
+        <button id="set_1024e3">1024 bit(e=3)</button>
+        <button id="set_512f4">512 bit</button>
+        <button id="set_512e3">512 bit(e=3)</button>
+        &nbsp;
+        <button id="do_genrsa">Generate</button>
+        bits =
+        <input id="bits" value="512" size="10" type="text">
+    </p>
+    <p>
+        Modulus (hex):
+        <br>
+        <input id="n" type="text" rows="4" cols="70">
+    </p>
+    <p>
+        Public exponent (hex, F4=0x10001):
+        <br>
+        <input id="e" value="3" size="20" type="text">
+    </p>
+    <p>
+        Private exponent (hex):
+        <br>
+        <input id="d" type="text" value="" rows="4" cols="70">
+    </p>
+    <p>
+        P (hex):
+        <br>
+        <input id="p" type="text" rows="2" cols="70">
+    </p>
+    <p>
+        Q (hex):
+        <br>
+        <input id="Q" type="text" rows="2" cols="70">
+    </p>
+    <p>
+        D mod (P-1) (hex):
+        <br>
+        <input id="dmp1" type="text" rows="2" cols="70">
+    </p>
+    <p>
+        D mod (Q-1) (hex):
+        <br>
+        <input id="dmq1" type="text" rows="2" cols="70">
+    </p>
+    <p>
+        1/Q mod P (hex):
+        <br>
+        <input id="coeff" type="text" rows="2" cols="70">
+    </p>
+
+</div>
+
+{% endblock %}

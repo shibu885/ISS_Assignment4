@@ -1,0 +1,39 @@
+{% extends "layout.html" %} {% block content %}
+<h1 class="text-h2-lightblue">QUIZZES</h1>
+<div class="content" id="experiment-article-section-1-content">
+    
+<form action = "{{ request.path }}" method = "post">
+         <label for = "A1">1. Let p = 17, q = 11 and N = pq. If (in the public-key) e= 7, then a possible value for the trap-door d (in the private-key) in an RAS cryptosystem is
+        </label><br>
+         <input type="radio" name="A1" value="1" checked>22</input><br>
+         <input type="radio" name="A1" value="2">153</input><br>
+         <input type="radio" name="A1" value="3">7</input><br>
+         <input type="radio" name="A1" value="4">23</input><br>
+         <label for = "A2">2.Encrypt the message m = 57 with the textbook RSA with the public key pk = N= 253, e = 3</label><br>
+         <input type="radio" name="A2" value="1" checked>240</input><br>
+         <input type="radio" name="A2" value="2">250</input><br>
+         <input type="radio" name="A2" value="3">257</input><br>
+         <input type="radio" name="A2" value="4">196</input><br>
+         <label for = "A3">3. In Asymmetric-Key cipher, the sender uses the _____ key</label><br>
+         <input type="radio" name="A3" value="1" checked>Private</input><br>
+         <input type="radio" name="A3" value="2">Public</input><br>
+         <input type="radio" name="A3" value="3">Either Private or Public</input><br>
+         <input type="radio" name="A3" value="4">None</input><br>
+         <label for = "A4">4.Understand PKCSv1.5 scheme(using experimetn) and try to break above scheme.</label><br>
+         <input type = "text" name = "A4" placeholder = "No Answer"></input><br>
+         <label for = "A5">5.Why PKCSv1.5 is more Secure </label><br>
+         <input type = "text" name = "A5" placeholder = "No Answer"></input><br>
+        <!--  <label for = "A6">6.What is importance of Intialiczation Vector(IV) and CTR ? </label><br>
+         <input type = "text" name = "A6" placeholder = "No Answer"></input><br>
+         <label for = "A7">7.Why ECB is not CPA-secure and Why CBC is CPA-secure?</label><br>
+         <input type = "text" name = "A7" placeholder = "No Answer"></input><br>
+         <label for = "A8">8.Suppose IV is not random.Then is CBC and OFB mode both secure</label><br>
+         <input type = "text" name = "A8" placeholder = "No Answer"></input><br>
+ -->
+
+
+         <input type = "submit" value = "Submit" />
+      </form>
+    
+</div>
+{% endblock %}
