@@ -47,7 +47,7 @@ app/templates: contains the HTML files
 # Design Patterns identified
 Factory pattern while initializing the database. The app.py creates and maintains of database of response of quizzes.
 
-127.0.0::5000/show_all : shows the correct answers in first row followed by responses of visitors.
+127.0.0.1::5000/show_all : shows the correct answers in first row followed by responses of visitors.
 
 # Testing of Script
 run app/test.py if it prints working well and nothing else then the logic of code is working well and it will give the error
