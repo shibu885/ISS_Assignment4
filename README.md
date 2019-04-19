@@ -1,7 +1,7 @@
 # ISS_Assignment4
 PKCS_v1.5:
 This project was made by Vishal Verma(2018101072)(https://github.com/vjv2903) and Shiva Prasad Tummala(2018101047)
-(https://github.com/shibu885) under guidance Mr. Anubhab Sen(https://github.com/anubhabsen) as an assignment for Introduction 
+(https://github.com/shibu885) under guidance of Mr. Anubhab Sen(https://github.com/anubhabsen) as an assignment for Introduction 
 to Software Systems course.
 
 ## Disclaimer
