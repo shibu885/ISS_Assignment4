@@ -14,7 +14,7 @@ import string
 # myPath = os.path.dirname(os.path.abspath(__file__))
 # sys.path.insert(0, myPath + '/../')
 
-from utils import *
+from logics import *
 
 # import rsa
 
