@@ -45,4 +45,8 @@ app/templates: contains the HTML files
 app/testScript.py: It generates the random string and encrypt them you can use them to check the your output.
 
 # Design Patterns identified
-app/Design.txt: it contains the design pattern of webpage
+Factory pattern while initializing the database. The app.py creates and maintains of database of response of quizzes.
+
+127.0.0::5000/show_all : shows the correct answers in first row followed by responses of visitors.
+
+
